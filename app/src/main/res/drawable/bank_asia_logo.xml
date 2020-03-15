@@ -1,0 +1,47 @@
+<!-- drawable/bank_asia_l.xml -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="52dp"
+    android:height="49dp"
+    android:viewportWidth="52"
+    android:viewportHeight="49"
+    >
+    <group>
+        <clip-path
+            android:pathData="M0 0H52V49H0V0Z"
+            />
+        <group
+            android:translateX="1.349"
+            android:translateY="-0.274"
+            android:pivotX="26"
+            android:pivotY="24.5"
+            android:scaleX="3.382"
+            android:scaleY="3.589"
+            android:rotation="90"
+            >
+            <path
+                android:pathData="M0 0V49H52V0"
+                >
+                <aapt:attr name="android:fillColor">
+                    <gradient
+                        android:type="linear"
+                        android:startX="13"
+                        android:startY="24.5"
+                        android:endX="39"
+                        android:endY="24.5"
+                        >
+                        <item
+                            android:color="#FFFFFF"
+                            android:offset="0"
+                            />
+                        <item
+                            android:color="#FFFFFF"
+                            android:offset="0.863"
+                            />
+                    </gradient>
+                </aapt:attr>
+            </path>
+        </group>
+    </group>
+</vector>
